@@ -1,0 +1,45 @@
+[20:55, 20/10/2026] +55 41 8787-8995: <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estações dos Anos</title>
+</head>
+<body>
+    <h1>Estações do Ano</h1>
+<div id='resultado'>
+
+</div>
+
+    <button onclick="estacao()">Informe o mês</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+[20:55, 20/10/2026] +55 41 8787-8995: atividade 10/script.js
+[20:55, 20/10/2026] +55 41 8787-8995: function estacao(){
+    let mes = prompt("Digite o mẽs por extenso (ex: Setembro):")
+    let mostrar = document.getElementById('resultado')
+
+    mes = mes.toUpperCase();
+
+    console.log(mes)
+
+
+    if(mes == 'JANEIRO' || mes == 'FEVEREIRO' || mes == 'DEZEMBRO') {
+        alert("Esse mês está na estação do Verão")
+    }
+    if(mes == 'MARÇO' || mes == 'ABRIL' || mes == 'MAIO'){
+        alert("Esse mês está na estação do Outono")
+    }
+    if(mes == 'JUNHO' || mes == 'JULHO' || mes == 'AGOSTO'){
+        alert("Esse mês está na estação do Inverno")
+    }
+    if(mes == 'SETEMBRO' || mes == 'OUTUBRO' || mes == 'NOVEMBRO'){
+        alert("Esse mês está na estação do Primavera")
+    }
+
+    //O Usuário informa o mes por extenso e o sistema informa a estacao daquele mes.
+    
+
+}
