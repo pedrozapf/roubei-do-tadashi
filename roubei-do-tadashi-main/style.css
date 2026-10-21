@@ -1,7 +1,7 @@
 body {
     text-align: center;
     background-size: 100%;
-    background-color: rgb(42, 140, 165);
+    background-color: rgb(247, 244, 244);
 }
 
 h1 {
@@ -23,11 +23,11 @@ a p {
 }
 
 header {
-    background-color: rgb(244, 247, 242);
+    background-color: rgb(5, 250, 17);
 }
 
 main {
-    background-color: rgb(255, 253, 253);
+    background-color: rgb(151, 151, 151);
 }
 
 a p:hover {
