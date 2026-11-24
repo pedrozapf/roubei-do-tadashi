@@ -15,12 +15,12 @@ function sorte(){
         let mostrar = document.getElementById('resultado');
         mostrar.innerHTML = `<p>Sorte: ${cont_sorte}</p>
                             <p>Azar: ${cont_azar}</p>
-                            <img src= https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS73vabNaiRqjrWLtQS7UfG60ucS_8OIsRWjZ84IDcPeA&s=10> `;
+                            <img src= https://i.ytimg.com/vi/Qxn-7P8XFa8/maxresdefault.jpg> `;
     }else {
         cont_azar++;
         let mostrar = document.getElementById('resultado');
         mostrar.innerHTML = `<p>Sorte: ${cont_sorte}</p>
                             <p>Azar: ${cont_azar}</p>
-                            <img src= https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQScNDe75HMQ5L_R4uqFdLCRhsbi5JphG7B5STnRrabhw&s=10> `;
+                            <img src= https://criticalhits.com.br/wp-content/uploads/2026/11/godzilla-minus-zero-entenda-o-final-e-o-destino-dos-personagens-featured-696x487.webp> `;
     }
 }

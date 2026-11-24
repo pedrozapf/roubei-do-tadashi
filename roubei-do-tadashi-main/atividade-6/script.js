@@ -1,9 +1,12 @@
-function site() {
-    let nome;
-    let rasc = "";
-    let agora = new Date();
+function site(){
+   let nome;
+   let result;
+   let agora = new Date
 
-    nome = prompt("Qual seu nome?");
-    rasc = document.getElementById("resultado");
 
-    rasc.innerHTML = `<p>Olá, <strong>${nome}</strong>! Acabei de puxar do sistema a seguinte informação: <br> Hoje é dia <strong>${agora}</strong>!</p>`;
+   nome = prompt ("Qual seu nome?");
+   result = window.document.getElementById('resultado');
+
+
+   result.innerHTML = `<p>Olá, ${nome}! é um prazer te conhecer! <br> O sitema me enviou a seguinte informação:</br> <mark>${agora}</mark> </p>`;
+}
